@@ -1,0 +1,561 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.body {
+  background-color: #a41d2c;
+}
+
+.section_hero {
+  background-image: linear-gradient(#a41d2c 46%, #a41d2c00), url('../images/hero_pattern.png');
+  background-position: 0 0, 0%;
+  background-size: auto, 400px;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.hero_sun {
+  height: 60%;
+}
+
+.image {
+  height: 82%;
+  position: absolute;
+  inset: auto 33% 0% auto;
+}
+
+.image-2 {
+  height: 85%;
+  position: absolute;
+  inset: auto 29% 0% auto;
+}
+
+.sun_hero {
+  height: 84%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.godray {
+  mix-blend-mode: screen;
+}
+
+.section_about {
+  background-color: #9b1d2a;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 75px;
+  display: flex;
+  position: relative;
+}
+
+.sun {
+  height: 63%;
+  position: absolute;
+}
+
+.tail_hero_right {
+  height: 30%;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.tail_hero_left {
+  height: 20%;
+  margin-right: 100px;
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.hero_chara {
+  height: 70%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.header {
+  z-index: 50;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.hero_right {
+  background-color: #0000;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.hero_left {
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  display: flex;
+}
+
+.social_button {
+  background-color: #8a1220;
+  border: 2px solid #630914;
+  border-bottom-width: 5px;
+  border-radius: 9px;
+  width: auto;
+  height: auto;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.socials {
+  color: #ffd387;
+  background-color: #720f1b;
+  border: 2px solid #d0a456;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 40px;
+  padding: 0;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  display: flex;
+}
+
+.socials:hover {
+  background-color: #b81a2d;
+  border-color: #ffcd75;
+}
+
+.menu_link {
+  color: #ffd387;
+  background-color: #0000;
+  border: 2px #d0a456;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-right: 30px;
+  padding: 0;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  display: flex;
+}
+
+.menu_link:hover {
+  background-color: #b81a2d;
+  border-color: #ffcd75;
+}
+
+.h1 {
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(-45deg, #fda941, #ffba4b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 115px;
+  line-height: 80px;
+  position: relative;
+}
+
+.block_para {
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+}
+
+.para {
+  color: #fb5566;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  display: block;
+}
+
+.image-3 {
+  height: 100%;
+}
+
+.block_chara {
+  height: 500px;
+  margin-top: -48px;
+  position: relative;
+}
+
+.wave_about {
+  background-image: linear-gradient(#9b1d2a, #0000), url('../images/bg_wave_about.png');
+  background-position: 0 0, 50% 0;
+  background-size: auto, 400px;
+  height: 500px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.smoke {
+  height: 200px;
+  position: absolute;
+  inset: 17% -17% auto auto;
+}
+
+.section_tokenomics {
+  background-color: #9b1d2a;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  position: relative;
+}
+
+.chara_tokenomics {
+  height: 400px;
+  margin-top: -28px;
+  position: relative;
+}
+
+.block_tokenomics {
+  background-color: #8a1220;
+  border: 3px solid #630914;
+  border-bottom-width: 10px;
+  border-radius: 20px;
+  width: 650px;
+  height: auto;
+  margin-top: -12px;
+  padding: 15px;
+  position: relative;
+}
+
+.tokenomics_in {
+  background-color: #720f1b;
+  border: 2px solid #d0a456;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.tokenomics_details {
+  background-color: #5c0d16;
+  border-radius: 9px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 25px 15px;
+  display: flex;
+}
+
+.h2 {
+  color: #ffd387;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.block_how {
+  background-color: #8a1220;
+  border: 3px solid #630914;
+  border-bottom-width: 10px;
+  border-radius: 20px;
+  width: 650px;
+  height: auto;
+  margin-top: 15px;
+  padding: 15px;
+  position: relative;
+}
+
+.h3 {
+  color: #ffd387;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.how_separator {
+  background-color: #932a36;
+  width: 20%;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.para2 {
+  color: #ffd387;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 23px;
+  line-height: 23px;
+}
+
+.how {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+.section_how {
+  background-color: #9b1d2a;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  position: relative;
+}
+
+.image-4 {
+  width: 800px;
+  margin-top: 20px;
+  position: absolute;
+  inset: 0% auto auto;
+}
+
+.block_ca {
+  background-color: #8a1220;
+  border: 2px solid #630914;
+  border-bottom-width: 5px;
+  border-radius: 9px;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  padding: 5px;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.ca {
+  color: #ffd387;
+  background-color: #720f1b;
+  border: 2px solid #d0a456;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  padding: 0 15px;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  display: flex;
+}
+
+.ca:hover {
+  background-color: #b81a2d;
+  border-color: #ffcd75;
+}
+
+.ca_mobile {
+  color: #ffd387;
+  background-color: #720f1b;
+  border: 2px solid #d0a456;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  padding: 0 15px;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  display: none;
+}
+
+.ca_mobile:hover {
+  background-color: #b81a2d;
+  border-color: #ffcd75;
+}
+
+.section_welcome {
+  z-index: 1000;
+  background-color: #a41d2d;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.block_continue {
+  background-color: #8a1220;
+  border: 2px solid #630914;
+  border-bottom-width: 5px;
+  border-radius: 9px;
+  width: 150px;
+  height: auto;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.continue {
+  color: #ffd387;
+  background-color: #720f1b;
+  border: 2px solid #d0a456;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 40px;
+  padding: 0;
+  font-family: "Go 3 V 2", sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  display: flex;
+}
+
+.continue:hover {
+  background-color: #b81a2d;
+  border-color: #ffcd75;
+}
+
+@media screen and (max-width: 991px) {
+  .sun_hero {
+    display: none;
+  }
+
+  .godray, .sun {
+    width: auto;
+    height: 65%;
+  }
+
+  .tail_hero_right, .tail_hero_left {
+    display: none;
+  }
+
+  .hero_chara {
+    width: auto;
+    height: auto;
+  }
+
+  .ca_mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .hero_left {
+    display: none;
+    position: absolute;
+    inset: auto auto -84%;
+  }
+
+  .menu_link {
+    margin-right: 0;
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .block_ca {
+    left: auto;
+  }
+
+  .ca_mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .godray, .sun {
+    display: none;
+  }
+
+  .hero_right {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero_left {
+    display: flex;
+  }
+
+  .social_button {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .menu_link {
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .block_ca {
+    margin-left: 5px;
+    margin-right: 5px;
+    bottom: auto;
+  }
+
+  .ca {
+    display: none;
+  }
+
+  .ca_mobile {
+    display: flex;
+  }
+
+  .block_continue {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Go 3 V 2';
+  src: url('../fonts/go3v2.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Maladroit';
+  src: url('../fonts/maladroit.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
